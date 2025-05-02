@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Portfolio - About</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Add Google Fonts if needed -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Optional font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Page specific styles */
+        .about-hero {
+            height: 50vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3rem;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 5rem 2rem;
+        }
+        
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            background-color: var(--primary-color);
+            min-height: 400px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .skills {
+            margin-top: 3rem;
+        }
+        
+        .skill-bars {
+            margin-top: 1.5rem;
+        }
+        
+        .skill-bar {
+            margin-bottom: 1.5rem;
+        }
+        
+        .skill-bar p {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+        
+        .skill-bar .bar {
+            height: 10px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .skill-bar .bar span {
+            display: block;
+            height: 100%;
+            background: var(--primary-color);
+            border-radius: 5px;
+        }
+        
+        .clients {
+            background-color: #121212;
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+        
+        .client-logos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 3rem;
+        }
+        
+        .client-logo {
+            width: 150px;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .client-logo:hover {
+            transform: scale(1.05);
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">DJ NAME</a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-hero">
+            <div class="hero-content">
+                <h1>ABOUT ME</h1>
+                <p>Get to know the artist behind the music</p>
+            </div>
+        </section>
+
+        <section class="about-content">
+            <div class="about-text">
+                <h2>MY STORY</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius velit nec velit finibus, at volutpat nisl tincidunt. Integer vestibulum risus vel turpis lacinia, vel sodales nisl hendrerit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                
+                <p>Sed ut elementum libero. Maecenas in vehicula orci, at bibendum sem
