@@ -1,0 +1,112 @@
+.music-hero {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../images/music-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.music-section {
+  background-color: var(--dark-color);
+  padding: 5rem 0;
+}
+
+.music-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  padding: 0 1.5rem;
+}
+
+.player-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.track-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.track-item {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.track-item:hover {
+  transform: translateY(-5px);
+}
+
+.track-info {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.track-info h3 {
+  margin-bottom: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.track-info p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.play-count {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--accent-color);
+  font-size: 0.9rem;
+}
+
+.music-playlist {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.music-playlist h2 {
+  margin-bottom: 2.5rem;
+}
+
+.embedded-playlist {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.genre-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.genre-tag {
+  background-color: rgba(142, 68, 173, 0.2);
+  color: var(--primary-color);
+  padding: 0.2rem 0.6rem;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+  .music-hero {
+    height: 50vh;
+  }
+}
